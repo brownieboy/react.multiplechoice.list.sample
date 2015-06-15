@@ -1,18 +1,3 @@
-/** @jsx React.DOM */
-
-var AnswerRadioInput = React.createClass({
-	render: function () {
-		return (
-			<div className="radio">
-				<label>
-					<input type="radio" />
-					Label Text
-				</label>
-			</div>
-		);
-	}
-});
-
 
 var AnswerRadioInput = React.createClass({
 	propTypes : {
